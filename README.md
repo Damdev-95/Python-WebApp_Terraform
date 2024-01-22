@@ -30,7 +30,14 @@ For this typical infrastructure, the terraform file include :
 # Deployment steps
 
 * Enable the IAM access using the AWS access and secret key, to have the priviledge accces to deploy resoucres on AWS.
-* 
+* change directory to the parent directory of the repositiroy
+* Use the following commands to deploy your infrastructure;
+```
+terraform plan
+terraform apply --auto-approve
+```
+* The ouput of the deplyments shows the load bbalancer url for the python application.
+* The web applicaton is wriiten in python with flask package
 
 
 
