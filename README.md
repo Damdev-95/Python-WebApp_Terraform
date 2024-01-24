@@ -33,6 +33,7 @@ For this typical infrastructure, the terraform file include :
 * change directory to the parent directory of the repositiroy
 * Use the following commands to deploy your infrastructure;
 ```
+terraform init
 terraform plan
 terraform apply --auto-approve
 ```
